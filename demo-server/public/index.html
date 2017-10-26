@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="javascripts/promises.js"></script>
+	<script type="text/javascript">
+		promiseDemo.getPostsCallback(function(res){
+		  document.getElementById("callback-response").innerHTML = res;
+		});
+		promiseDemo.promiseDemo();
+	</script>
+</head>
+<body>
+
+<div>
+	<h1>Callback</h1>
+	<code id="callback-response">A piece of computer code</code>
+</div>
+
+<div>
+	<h1>Promise</h1>
+	<code id="promise-response">A piece of computer code</code>
+</div>
+
+</body>
+</html>

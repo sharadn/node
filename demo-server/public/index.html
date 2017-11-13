@@ -2,13 +2,26 @@
 <html>
 <head>
 	<title></title>
-	<script type="text/javascript" src="javascripts/promises.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  	
+  </script>
+  	<script type="text/javascript" src="javascripts/promises.js"></script>
 	<script type="text/javascript">
-		promiseDemo.getPostsCallback(function(res){
-		  document.getElementById("callback-response").innerHTML = res;
-		});
-		promiseDemo.promiseDemo();
+	 //   promiseDemo.getPostsCallback(function(err, res){
+	 //   		if(err){
+	 //   			return document.getElementById("callback-response").innerHTML = "Error Occured";
+	 //   		}
+
+		//   	document.getElementById("callback-response").innerHTML = res;
+		// });
+
+		// promiseDemo.promiseDemo();
+		// promiseDemo.simulateAllPromise();
+		promiseDemo.simulatePromiseChaining();
 	</script>
+	
 </head>
 <body>
 

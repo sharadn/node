@@ -143,7 +143,6 @@ var promiseDemo = (function(){
 				console.log('promise 3 error', result);
 			});
 		}
-
 	};
 })();
 
